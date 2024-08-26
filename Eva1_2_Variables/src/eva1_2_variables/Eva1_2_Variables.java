@@ -49,7 +49,19 @@ public class Eva1_2_Variables {
     String nombre;
     String apellido;
     String curp;
-    float promedio;
+    double promedio;
+    int edad;
+    
+    edad = 18; //ASIGNACIÓN: estoy colocando el valor 17 en la variable edad
+    nombre = "Cynthia Michelle";
+    apellido = "Flores Cruz";
+    promedio = 8.1; 
+    
+    System.out.println(edad);
+    System.out.println(nombre);
+    System.out.println(apellido);
+    System.out.println(promedio);
+    
       }
 }
 
