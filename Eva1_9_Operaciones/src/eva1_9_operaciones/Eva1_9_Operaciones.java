@@ -26,33 +26,33 @@ public class Eva1_9_Operaciones {
         
         //SUMA Y RESTA
         suma = x + y;
-        System.out.println("LA SUMA DE X + Y ES: ");
-        System.out.println(suma);
+        System.out.println("LA SUMA DE X + Y ES: " + suma);
+        
         resta = x - y;
-        System.out.println("LA RESTA DE X - Y ES: ");
-        System.out.println(resta);
+        System.out.println("LA RESTA DE X - Y ES: " + resta);
+        
         
         //MULTIPLICACIÓN
         mult = x * y;
-        System.out.println("LA MULTIPLICACIÓN DE X * Y ES: ");
-        System.out.println(mult);
+        System.out.println("LA MULTIPLICACIÓN DE X * Y ES: " + mult);
+      
         
         //DIVISIÓN
         div = x / y;
-        System.out.println("LA DIVISIÓN DE (X) / (Y) ES: ");
-        System.out.println(div);
+        System.out.println("LA DIVISIÓN DE (X) / (Y) ES: " + div);
         
-        x=5;
-        y=2;
+        
+        x = 5;
+        y = 2;
         div = x / y;
-        System.out.println("LA DIVISIÓN DE (X) / (Y) ES: ");
-        System.out.println(div);
+        System.out.println("LA DIVISIÓN DE (X) / (Y) ES: " + div);
+        
         
         //DIVISIÓN CON PUNTO FLOTANTE
         double val1=5, val2=2, resu;
         resu = val1 / val2;
-        System.out.println("LA DIVISIÓN DE VAL1(5) / VAL2(2) ES: ");
-        System.out.println(resu);
+        System.out.println("LA DIVISIÓN DE VAL1(5) / VAL2(2) ES: " + resu);
+        
         
      
         
